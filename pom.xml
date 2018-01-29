@@ -8,10 +8,16 @@
   <name>webDemo Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+      <!-- SLF4J-->
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+          <version>1.7.7</version>
+      </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.11</version>
       <scope>test</scope>
     </dependency>
       <!-- Servlet -->
@@ -34,6 +40,24 @@
           <artifactId>jstl</artifactId>
           <version>1.2</version>
           <scope>runtime</scope>
+      </dependency>
+      <!-- Mysql-->
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>5.1.42</version>
+      </dependency>
+      <!-- 工具类Apache Commons Lang-->
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+          <version>3.5</version>
+      </dependency>
+      <!-- Apache Commons Collection-->
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-collections4</artifactId>
+          <version>4.1</version>
       </dependency>
   </dependencies>
   <build>
