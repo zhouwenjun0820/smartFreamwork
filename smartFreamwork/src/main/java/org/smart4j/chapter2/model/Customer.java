@@ -55,4 +55,9 @@ public class Customer {
     public void setRemark(String remark) {
         this.remark = remark;
     }
+
+    @Override
+    public String toString() {
+        return "name:"+name;
+    }
 }

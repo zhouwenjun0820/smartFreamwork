@@ -53,12 +53,19 @@
           <artifactId>commons-lang3</artifactId>
           <version>3.5</version>
       </dependency>
+      <!-- Apache Commoms DBUtils-->
+      <dependency>
+          <groupId>commons-dbutils</groupId>
+          <artifactId>commons-dbutils</artifactId>
+          <version>1.6</version>
+      </dependency>
       <!-- Apache Commons Collection-->
       <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-collections4</artifactId>
           <version>4.1</version>
       </dependency>
+      <!--DBCP连接池-->
   </dependencies>
   <build>
       <finalName>webDemo</finalName>
